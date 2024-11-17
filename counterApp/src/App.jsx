@@ -9,13 +9,13 @@ export default function App() {
     document.title = `Count: ${count}`
   }, [count])
 
-  console.log(count);
+  const increment = () => setCount(count + 1)
   
 
   return (
     <div>
       <h1>Simple Counter App</h1>
-      <Counter/>
+      <Counter count={count} onIncrement={increment} />
       <SetCounter setCount={setCount}/>
     </div>
   )

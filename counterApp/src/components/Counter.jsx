@@ -1,8 +1,10 @@
-export default function Counter() {
+export default function Counter({ count, onIncrement }) {
     return (
       <div>
-        <p>Count: </p>
-        <button>
+        <p>Count: {count}</p>
+        <button 
+          onClick={onIncrement}
+        >
           Increment
         </button>
       </div>
