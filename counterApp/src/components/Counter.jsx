@@ -1,7 +1,10 @@
-import React from 'react'
-
 export default function Counter() {
-  return (
-    <div>Counter</div>
-  )
-}
+    return (
+      <div>
+        <p>Count: </p>
+        <button>
+          Increment
+        </button>
+      </div>
+    )
+  }
