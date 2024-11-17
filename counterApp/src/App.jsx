@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div>
       <h1>Simple Counter App</h1>
+      <SetCounter/>
     </div>
   )
 }

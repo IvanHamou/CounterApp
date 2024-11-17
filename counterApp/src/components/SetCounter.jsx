@@ -1,7 +1,15 @@
-import React from 'react'
+export default function SetCounter({ setCount }) {
 
-export default function SetCounter() {
+
   return (
-    <div>SetCounter</div>
+    <form>
+      <input
+        type="text"
+        placeholder="Set counter value"
+      />
+      <button type="submit">
+        Set Count
+      </button>
+    </form>
   )
 }
